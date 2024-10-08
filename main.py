@@ -15,7 +15,7 @@ from Classes import Clienti,Casse
 # per simulare lo scorrimento della fila
 
 
-arr_clienti=[Clienti(i) for i in range(9,(r.randint(12,33)] # La lista di persone in attesa nella coda "principale"
+arr_clienti=[Clienti(i) for i in range(1,(r.randint(12,33)] # La lista di persone in attesa nella coda "principale"
                                                             # Generiamo gli oggetti direttamente nella lista
                                                                 # Visto che sono identici, sarà utile per richiamarne
                                                                     # i metodi.
