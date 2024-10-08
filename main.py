@@ -15,7 +15,7 @@ from Classes import Clienti,Casse
 # per simulare lo scorrimento della fila
 
 
-arr_clienti=[Clienti(i) for i in range(9)] # La lista di persone in attesa nella coda "principale"
+arr_clienti=[Clienti(i) for i in range(9,33)] # La lista di persone in attesa nella coda "principale"
                                                             # Generiamo gli oggetti direttamente nella lista
                                                                 # Visto che sono identici, sarà utile per richiamarne
                                                                     # i metodi.
@@ -23,7 +23,7 @@ arr_clienti=[Clienti(i) for i in range(9)] # La lista di persone in attesa nella
 print(arr_clienti)
 
 # Funzioni
-list_casse =[Casse(i) for i in range (3,r.randint(9,33))] #I generatori funzionano solo con le liste/array. Non con le tuple.
+list_casse =[Casse(i) for i in range (3)] #I generatori funzionano solo con le liste/array. Non con le tuple.
                                                             # Il limite superiore del range di possibili clienti sarà un randint.
 
 
